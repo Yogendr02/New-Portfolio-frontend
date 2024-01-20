@@ -5,6 +5,7 @@ import Prohead from '../components/head'
 import Logo from '../components/logos'
 import Contact from '../components/contact'
 import Nav from '../components/navbar'
+import Load from '../components/loading'
 import Menu from "../components/menu"
 import axios from 'axios'
 import { useMutation, useQuery } from '@tanstack/react-query';
@@ -26,7 +27,15 @@ function main() {
     queryFn: getdata
   })
   if(users.isLoading){
-    return <div>hey watsapp</div>;
+    return (
+      <div className='grid col-span-1 m-auto space-y-3 my-2'>
+         <Load/>
+         <Load/>
+         <Load/>
+         <Load/>
+         <Load/>
+      </div>
+    )
   }
   if(users.isFetched){
     console.log(users.data[0].link);
