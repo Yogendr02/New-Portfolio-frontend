@@ -3,7 +3,7 @@ import React from 'react'
 function intro() {
     return (
         <div className='flex w-1/2 h-44 mx-auto my-3'>
-            <img className='border-4 border-[#B5C99A] rounded-full basis-1/3 h-56 z-10' src="https://w0.peakpx.com/wallpaper/944/716/HD-wallpaper-smart-watch-ben-10-green-light-animated.jpg" alt="" />
+            <img className='border-4 border-[#B5C99A] rounded-full basis-1/3 h-56 z-10' src="https://new-portfolio-p5y6.onrender.com/myimage.jpg" alt="" />
             <div className='bg-yellow-300 text-black flex basis-2/3 h-full -mx-12 my-6 rounded-r-xl text-align'>
                 <div className='basis-1/5'>
 

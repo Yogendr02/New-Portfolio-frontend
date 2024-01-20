@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const navb = createSlice({
     name:"navb",
     initialState:{
-        openmenu:true,
+        openmenu:false,
         lborder:"",
         bborder:""
     },
